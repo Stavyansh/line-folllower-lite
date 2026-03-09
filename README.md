@@ -199,13 +199,11 @@ The abs() function converts negative values to positive because PWM values must 
 
 The same logic is applied to the left motor.
 
-Speed Selection
+## Speed Selection
 
-The speed value was determined experimentally, values below ~175 caused the motors to stall or only hum
+The speed value was determined experimentally, values below ~175 caused the motors to stall or only hum,
 
-higher values caused the robot to overshoot while turning
-
-A value around 175–180 provided stable tracking.
+higher values caused the robot to overshoot while turning. A value around 175–180 provided stable tracking.
 
 ## Observed Limitations
 
